@@ -57,10 +57,10 @@ export default class PickImage extends React.Component {
             headers: {
                 'content-type': 'multipart/form-data'
             }
-        }).then((response) -> response.json())
-        .then((result) -> {
+        }).then((response) => response.json())
+        .then((result) => {
             console.log('Success', result)
-        }).catch((error) -> {console.log('error', error)})
+        }).catch((error) => {console.log('error', error)})
     }
 
     render() {
